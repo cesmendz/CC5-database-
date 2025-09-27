@@ -1,0 +1,53 @@
+--CUSTOMER insert--
+--insert into Customers (customer_id, first_name, last_name, age, country) values (6, "Aemee", "Cass", 20, "USA");
+
+--CUSTOMER update--
+--UPDATE Customers
+--Set age = 26
+--Where last_name = "Reinhardt";
+--Select * from Customers
+
+--ORDERS insert--
+--insert into Orders (order_id, item, amount, customer_id) values (7, "Keyboard", 450, 6);
+--UPDATE Orders
+--Set item = "Mouse", amount = 400
+--Where order_id = 6;
+--select * from Orders
+
+--ORDERS update
+--update Orders
+--Set item = "Monitor
+--Where order_id = 4;
+--select * from Orders
+
+--ORDERS delete
+--delete from Orders where order_id = 1;
+--select * from Orders
+
+--SHIPPINGS update
+update shippings 
+set status = "Delivered"
+Where shipping_id = 1;
+
+update shippings 
+set status = "Delivered"
+Where shipping_id = 2;
+
+update shippings 
+set status = "Delivered"
+Where shipping_id = 3;
+
+update shippings 
+set status = "Delivered"
+Where shipping_id = 4;
+
+update shippings 
+set status = "Delivered"
+Where shipping_id = 5;
+
+select * from Orders
+
+--SHIPPINGS insert 
+--insert into Shippings (shipping_id, status, customer) values (6, "Pending", 6);
+--select * from Shippings
+

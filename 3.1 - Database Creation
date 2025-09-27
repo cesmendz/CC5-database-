@@ -1,0 +1,120 @@
+--1. Students Database
+/*CREATE TABLE Students (
+StudentID INT PRIMARY KEY,
+Name VARCHAR(100),
+Age INT,
+Course VARCHAR(50),
+YearLevel INT
+);
+INSERT INTO Students VALUES (1, 'Damien Marcus', 20, 'BSCS', 1);
+INSERT INTO Students VALUES (2, 'Aemee Cassandra', 19, 'BSIT', 2);
+INSERT INTO Students VALUES (3, 'Sophia', 21, 'BSPYCH', 3);*/
+
+-- 2. Library Database
+/*CREATE TABLE Library (
+BookID INT PRIMARY KEY,
+Title VARCHAR(200),
+Author VARCHAR(100),
+Genre VARCHAR(50),
+YearPublished INT
+);
+INSERT INTO Library VALUES (104, 'To Kill a Mockingbird ', 'Harper Lee ', ' Southern Gothic', 1960 );
+INSERT INTO Library VALUES (105, ' The Girl with the Dragon Tattoo ', 'Douglas Adams ', 'Comedy ', 2005 );
+INSERT INTO Library VALUES (106, ' Beloved ', 'Toni Morrison ', 'Historical Fiction ', 1987 );*/
+
+-- 3. Hospital Patients Database
+/*CREATE TABLE Patients (
+PatientID INT PRIMARY KEY,
+Name VARCHAR(100),
+Age INT,
+Diagnosis VARCHAR(100),
+AdmissionDate DATE
+);
+INSERT INTO Patients VALUES (99, 'James Patrick', 31, 'Pneumonia', '2025-09-10');
+INSERT INTO Patients VALUES (100, 'John Gabriel', 27, 'Diabetes', '2025-11-05');
+INSERT INTO Patients VALUES (101, 'Mark Anthony', 25, 'Asthma', '2025-05-20');*/
+
+-- 4. Employees Database
+/*CREATE TABLE Employees (
+EmployeeID INT PRIMARY KEY,
+Name VARCHAR(100),
+Position VARCHAR(50),
+Department VARCHAR(50),
+Salary DECIMAL(10,2)
+);
+INSERT INTO Employees VALUES (101, 'Jairuz Cain', 'Technician', 'Maintenance', 60000);
+INSERT INTO Employees VALUES (102, 'John Vincent', 'Engineer', 'IT', 50000);
+INSERT INTO Employees VALUES (103, 'John Lennard', 'Pilot', 'Aircraft Professional', 135000);*/
+
+-- 5. Online Store Products Database
+/*CREATE TABLE Products (
+ProductID INT PRIMARY KEY,
+ProductName VARCHAR(100),
+Category VARCHAR(50),
+Price DECIMAL(10,2),
+StockQuantity INT
+);
+INSERT INTO Products VALUES (421, 'Laptop', 'Electronics', 50000, 20);
+INSERT INTO Products VALUES (422, 'Charger', 'Electronics', 350, 15);
+INSERT INTO Products VALUES (423, 'Phone', 'Electronics', 15000, 25);*/
+
+-- 6. Songs Database
+/*CREATE TABLE Songs (
+SongID INT PRIMARY KEY,
+Title VARCHAR(200),
+Artist VARCHAR(100),
+Album VARCHAR(100),
+Duration TIME
+);
+INSERT INTO Songs VALUES (222, 'La La Lost', 'Niki', 'Love Song', '2:30');
+INSERT INTO Songs VALUES (333, 'Folded', 'Kehlani', 'Pop Song', '4:20');
+INSERT INTO Songs VALUES (444, 'butterflies', 'Denise Hulia', 'Sweet Nothings', '4:60');*/
+
+-- 7. Restaurant Reservations Database
+/*CREATE TABLE Reservations (
+ReservationID INT PRIMARY KEY,
+GuestName VARCHAR(100),
+TableNumber INT,
+ReservDate DATE,
+ReservTime TIME
+);
+INSERT INTO Reservations VALUES (555, 'Desiree', 01, '2025-11-04', '6:00pm');
+INSERT INTO Reservations VALUES (666, 'Virginia', 02, '2025-11-17', '6:00pm');
+INSERT INTO Reservations VALUES (777, 'Veronica', 03, '2025-11-09', '6:00pm');*/
+
+-- 8. Games Database
+/*CREATE TABLE Games (
+GameID INT PRIMARY KEY,
+Title VARCHAR(200),
+Developer VARCHAR(100),
+Genre VARCHAR(100),
+PlayTime TIME
+);
+INSERT INTO Games VALUES (888, 'Minecraft', 'Mojang Studios', 'Swedish video game', '50:00:00');
+INSERT INTO Games VALUES (999, 'Red Dead Redemption 2', 'Rockstar Games', 'Open World', '120:00:00');
+INSERT INTO Games VALUES (000, 'The Legend of Zelda: Breath of the Wild', 'Nintendo', 'Action-Adventure', '50:00:00');*/
+
+
+-- 9. Computer Parts Database
+/*CREATE TABLE ComputerParts (
+PartID INT PRIMARY KEY,
+PartName VARCHAR(100),
+Category VARCHAR(100),
+Brand VARCHAR(100),
+Price DECIMAL(10,2)
+);
+INSERT INTO ComputerParts VALUES (123, 'Keyboard', 'Input Device', 'Logitech', 3800);
+INSERT INTO ComputerParts VALUES (345, 'CPU', 'Architecture', 'Ryzen', 10000);
+INSERT INTO ComputerParts VALUES (678, 'Ryzen 5 5600X', 'Processor', 'AMD', 7000);*/
+
+--10. Course Database
+/*CREATE TABLE Course (
+CourseID INT PRIMARY KEY,
+CourseName VARCHAR(100),
+Department VARCHAR(50),
+Instructor VARCHAR(50),
+Credits INT
+);
+INSERT INTO Course VALUES (65, 'Information technology', 'CITCS', 'Walter', 3);
+INSERT INTO Course VALUES (66, 'Data Analytics', 'CITCS', 'Pati', 3);
+INSERT INTO Course VALUES (67, 'BUsiness', 'CBA', 'Nigel', 3);*/
